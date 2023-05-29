@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8BC0230E2A2461E6007D63D4 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC0230D2A2461E6007D63D4 /* TextFieldView.swift */; };
+		8BC023122A246B4A007D63D4 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC023112A246B4A007D63D4 /* ImageExtensions.swift */; };
+		8BC023142A246B79007D63D4 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC023132A246B79007D63D4 /* ColorExtensions.swift */; };
 		8BC422632A23220C006CB3C2 /* SwiftyStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC422622A23220C006CB3C2 /* SwiftyStoreApp.swift */; };
 		8BC422652A23220C006CB3C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC422642A23220C006CB3C2 /* ContentView.swift */; };
 		8BC422672A23220E006CB3C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC422662A23220E006CB3C2 /* Assets.xcassets */; };
@@ -16,6 +19,8 @@
 		8BC422792A23220E006CB3C2 /* SwiftyStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC422782A23220E006CB3C2 /* SwiftyStoreTests.swift */; };
 		8BC422832A23220E006CB3C2 /* SwiftyStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC422822A23220E006CB3C2 /* SwiftyStoreUITests.swift */; };
 		8BC422852A23220E006CB3C2 /* SwiftyStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC422842A23220E006CB3C2 /* SwiftyStoreUITestsLaunchTests.swift */; };
+		8BC422952A23267D006CB3C2 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC422942A23267D006CB3C2 /* DMSans-Regular.ttf */; };
+		8BCE152B2A23621600883E55 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCE152A2A23621600883E55 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8BC0230D2A2461E6007D63D4 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		8BC023112A246B4A007D63D4 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		8BC023132A246B79007D63D4 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		8BC4225F2A23220C006CB3C2 /* SwiftyStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC422622A23220C006CB3C2 /* SwiftyStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStoreApp.swift; sourceTree = "<group>"; };
 		8BC422642A23220C006CB3C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,9 @@
 		8BC4227E2A23220E006CB3C2 /* SwiftyStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC422822A23220E006CB3C2 /* SwiftyStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStoreUITests.swift; sourceTree = "<group>"; };
 		8BC422842A23220E006CB3C2 /* SwiftyStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BC422942A23267D006CB3C2 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		8BC422962A2326D6006CB3C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCE152A2A23621600883E55 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8BC0230B2A2461D1007D63D4 /* Resuables */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0230C2A2461DB007D63D4 /* View */,
+			);
+			path = Resuables;
+			sourceTree = "<group>";
+		};
+		8BC0230C2A2461DB007D63D4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BC0230D2A2461E6007D63D4 /* TextFieldView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8BC0230F2A246AE9007D63D4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8BC023102A246AF0007D63D4 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8BC023102A246AF0007D63D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8BC023112A246B4A007D63D4 /* ImageExtensions.swift */,
+				8BC023132A246B79007D63D4 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		8BC422562A23220C006CB3C2 = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +142,14 @@
 		8BC422612A23220C006CB3C2 /* SwiftyStore */ = {
 			isa = PBXGroup;
 			children = (
-				8BC422622A23220C006CB3C2 /* SwiftyStoreApp.swift */,
-				8BC422642A23220C006CB3C2 /* ContentView.swift */,
-				8BC422662A23220E006CB3C2 /* Assets.xcassets */,
-				8BC4226B2A23220E006CB3C2 /* Persistence.swift */,
-				8BC4226D2A23220E006CB3C2 /* SwiftyStore.xcdatamodeld */,
+				8BC0230F2A246AE9007D63D4 /* Utils */,
+				8BC0230B2A2461D1007D63D4 /* Resuables */,
+				8BC422912A2325DA006CB3C2 /* Application */,
+				8BC422922A23266B006CB3C2 /* Resources */,
+				8BCE15272A2361F300883E55 /* Scene */,
+				8BC422972A232737006CB3C2 /* PersistentStorages */,
 				8BC422682A23220E006CB3C2 /* Preview Content */,
+				8BC422962A2326D6006CB3C2 /* Info.plist */,
 			);
 			path = SwiftyStore;
 			sourceTree = "<group>";
@@ -131,6 +177,65 @@
 				8BC422842A23220E006CB3C2 /* SwiftyStoreUITestsLaunchTests.swift */,
 			);
 			path = SwiftyStoreUITests;
+			sourceTree = "<group>";
+		};
+		8BC422912A2325DA006CB3C2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8BC422622A23220C006CB3C2 /* SwiftyStoreApp.swift */,
+				8BC422642A23220C006CB3C2 /* ContentView.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8BC422922A23266B006CB3C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8BC422662A23220E006CB3C2 /* Assets.xcassets */,
+				8BC422932A232670006CB3C2 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8BC422932A232670006CB3C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8BC422942A23267D006CB3C2 /* DMSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8BC422972A232737006CB3C2 /* PersistentStorages */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4226B2A23220E006CB3C2 /* Persistence.swift */,
+				8BC4226D2A23220E006CB3C2 /* SwiftyStore.xcdatamodeld */,
+			);
+			path = PersistentStorages;
+			sourceTree = "<group>";
+		};
+		8BCE15272A2361F300883E55 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE15282A23620300883E55 /* Login */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		8BCE15282A23620300883E55 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE15292A23620B00883E55 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8BCE15292A23620B00883E55 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8BCE152A2A23621600883E55 /* LoginView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BC422952A23267D006CB3C2 /* DMSans-Regular.ttf in Resources */,
 				8BC4226A2A23220E006CB3C2 /* Preview Assets.xcassets in Resources */,
 				8BC422672A23220E006CB3C2 /* Assets.xcassets in Resources */,
 			);
@@ -265,8 +371,12 @@
 			files = (
 				8BC4226C2A23220E006CB3C2 /* Persistence.swift in Sources */,
 				8BC422652A23220C006CB3C2 /* ContentView.swift in Sources */,
+				8BC0230E2A2461E6007D63D4 /* TextFieldView.swift in Sources */,
 				8BC422632A23220C006CB3C2 /* SwiftyStoreApp.swift in Sources */,
+				8BCE152B2A23621600883E55 /* LoginView.swift in Sources */,
+				8BC023122A246B4A007D63D4 /* ImageExtensions.swift in Sources */,
 				8BC4226F2A23220E006CB3C2 /* SwiftyStore.xcdatamodeld in Sources */,
+				8BC023142A246B79007D63D4 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +538,7 @@
 				DEVELOPMENT_TEAM = M3F68V6NQG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +568,7 @@
 				DEVELOPMENT_TEAM = M3F68V6NQG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftyStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
