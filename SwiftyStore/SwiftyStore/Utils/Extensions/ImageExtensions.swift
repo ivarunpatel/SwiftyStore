@@ -9,6 +9,7 @@ import Foundation
 import SwiftUI
 
 extension Image {
+    static let mainBG = Image("main_bg")
     static let email = Image("ic_email")
     static let password = Image("ic_password")
 }
